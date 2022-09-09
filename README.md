@@ -39,3 +39,16 @@ const multiplica = (numero1,numero2) => {
     console.log("Mensagem")
 
 })()
+
+let veiculo = {
+    marca: "toyota",
+    modelo: "Etios",
+    cor: "preto",
+    placa: "ABC0910",
+    potencia: 107,
+    anda: function() {
+        console.log("veiculo em movimento")
+    }
+}
+
+veiculo.anda()
